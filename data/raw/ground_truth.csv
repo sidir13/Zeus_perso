@@ -1,0 +1,151 @@
+besoin_id;prestataire_id;pertinence;commentaire
+0;0;1;Babychou Services - Garde enfants urgente
+0;15;1;Crèche Les Petits Soldats - Garde enfants
+0;28;0;Animacoeur Pension - Pas pour enfants
+1;23;1;Foncia Logement Défense - Location meublée
+1;18;1;Century 21 Mobilité Militaire - Logement
+1;8;1;Les Déménageurs Bretons - Services logement
+2;19;0;Garage Rapid'Auto - Lille pas Bourges
+2;14;0;Autocaz Location - Paris pas Bourges
+2;44;0;Garage Éco Performance - Lille pas Bourges
+3;12;0;Académia Soutien Scolaire - Paris pas Toulon
+3;15;0;Crèche Les Petits Soldats - Bordeaux pas Toulon
+3;0;0;Babychou Services - Paris pas Toulon
+4;1;0;Crédit Social des Fonctionnaires - Paris pas Marseille
+4;18;1;Century 21 Mobilité Militaire - Marseille OK
+4;46;0;Courtier Finance & Militaires - Lyon pas Marseille
+5;5;0;SOS Plombier 24h - Plombier pas électroménager Paris
+5;20;0;Électricien Pro Urgence - Lyon pas Paris
+5;0;0;Babychou Services - Pas électroménager
+6;6;1;ANTS Express - Carte grise en ligne OK
+6;28;0;CAF Conseil Droits Sociaux - Paris pas Lille
+6;19;0;Garage Rapid'Auto - Pas pour carte grise seule
+7;4;0;AGPM - Lyon pas Bordeaux
+7;16;1;GAN Prévoyance Fonctionnaires - Bordeaux OK
+7;41;1;Harmonie Mutuelle Défense - Bordeaux OK
+8;17;1;Interim Défense Services - Emploi conjoint
+8;3;1;Défense Mobilité - Recherche emploi
+8;25;0;Pôle Emploi Défense Mobilité - Plutôt pour reconversion
+9;2;1;Demeco - Déménagement Marseille OK
+9;7;0;Les Déménageurs Bretons - Brest pas Marseille
+9;23;0;Foncia Logement Défense - Lyon pas Marseille
+10;6;1;ANTS Express - Documents urgents transport
+10;9;0;France Services - Pas transport express
+10;19;0;Garage Rapid'Auto - Pas transport documents
+11;5;1;Unéo - Assurance habitation mobilité
+11;26;1;Allianz Fonctionnaire - Assurance habitation
+11;23;0;Foncia Logement Défense - Gestion pas assurance
+12;20;1;Électricien Pro Urgence - Lyon OK
+12;34;0;La Maison des Travaux - Marseille pas Lyon
+12;10;0;SOS Plombier 24h - Paris pas Lyon
+13;3;1;Défense Mobilité - Reconversion cybersécurité
+13;30;1;Centre Formation Cyber Défense - Formation cyber
+13;25;1;Pôle Emploi Défense Mobilité - Reconversion
+14;13;1;Psychologue Marine Dubois - Soutien famille militaire
+14;0;0;Babychou Services - Pas psychologie
+14;3;0;Défense Mobilité - Pas soutien psychologique
+15;19;0;Garage Rapid'Auto - Lille pas Bordeaux
+15;14;0;Autocaz Location - Paris pas Bordeaux
+15;42;0;Garage Éco Performance - Lille pas Bordeaux
+16;3;0;Défense Mobilité - Paris pas Nice
+16;38;1;Notaire Conseil Patrimoine - Nice OK
+16;25;0;Pôle Emploi Défense Mobilité - Paris pas Nice
+17;24;1;Self Stockage Securis - Toulon OK
+17;7;0;Les Déménageurs Bretons - Brest pas Toulon
+17;2;0;Demeco - Marseille pas Toulon
+18;11;1;Académia Soutien Scolaire - Paris OK
+18;15;0;Crèche Les Petits Soldats - Bordeaux pas Paris
+18;0;0;Babychou Services - Paris mais pas soutien scolaire
+19;46;1;Courtier Finance & Militaires - Lyon OK
+19;1;0;Crédit Social des Fonctionnaires - Paris pas Lyon
+19;12;1;Crédit Mutuel Armées - Lyon OK
+20;6;1;ANTS Express - Titre séjour
+20;9;1;France Services - Démarches administratives
+20;40;0;CAF Conseil Droits Sociaux - Pas titre séjour
+21;10;1;SOS Plombier 24h - Fuite urgente
+21;5;0;Unéo - Assurance pas plomberie
+21;20;0;Électricien Pro Urgence - Pas plomberie
+22;21;1;Dentiste Cabinet Urgences Paris - Urgence dentaire
+22;4;0;AGPM - Mutuelle pas dentiste direct
+22;45;0;Ambulance Médic Transport - Pas dentaire
+23;3;1;Défense Mobilité - Création entreprise
+23;17;1;Interim Défense Services - Conseil emploi
+23;25;0;Pôle Emploi Défense Mobilité - Pas création entreprise
+24;19;1;Garage Rapid'Auto - Lille OK contrôle technique
+24;14;0;Autocaz Location - Paris pas Lille
+24;42;0;Garage Éco Performance - Lille mais pas CT urgent
+25;26;1;Allianz Fonctionnaire - Lyon OK
+25;4;1;AGPM - Lyon OK assurance
+25;5;0;Unéo - Rennes pas Lyon
+26;27;1;Les Toits de la Défense - Logement social Paris
+26;23;1;Foncia Logement Défense - Logement famille
+26;18;0;Century 21 Mobilité Militaire - Pas logement social
+27;34;1;La Maison des Travaux - Marseille OK
+27;22;0;Constructions Maison Tradition - Vendée pas Marseille
+27;2;0;Demeco - Déménagement pas travaux
+28;32;0;Babylonia Langues - Paris pas Toulouse
+28;13;1;Auto École Militaire Plus - Toulouse OK permis PL
+28;3;0;Défense Mobilité - Paris pas permis direct
+29;15;1;Crèche Les Petits Soldats - Crèche bébé
+29;0;1;Babychou Services - Garde bébé nounou
+29;28;0;Animacoeur Pension - Pas pour enfants
+30;37;1;Boursorama Banque Militaire - Placement épargne
+30;12;1;Crédit Mutuel Armées - Épargne
+30;38;0;Notaire Conseil Patrimoine - Conseil pas placement direct
+31;6;1;ANTS Express - Passeport express
+31;9;1;France Services - Passeport
+31;40;0;CAF Conseil Droits Sociaux - Pas passeport
+32;13;1;Psychologue Marine Dubois - Marseille OK stress
+32;4;0;AGPM - Lyon pas psychologie
+32;14;0;Autocaz Location - Paris pas soutien psychologique
+33;36;1;Coiffeur Le Barber Militaire - Coupe militaire urgence
+33;29;0;Pressing Speed Clean - Pressing pas coiffure
+33;0;0;Babychou Services - Pas coiffure
+34;33;1;Huissier Moreau & Associés - Lyon OK
+34;23;0;Foncia Logement Défense - Lyon mais pas huissier
+34;18;0;Century 21 Mobilité Militaire - Marseille pas Lyon
+35;14;1;Autocaz Location - Location courte durée
+35;19;1;Garage Rapid'Auto - Véhicule prêt
+35;42;0;Garage Éco Performance - Pas location
+36;1;0;Crédit Social des Fonctionnaires - Paris pas Nantes
+36;46;0;Courtier Finance & Militaires - Lyon pas Nantes
+36;12;0;Crédit Mutuel Armées - Lyon pas Nantes
+37;23;1;Optic 2000 Express - Ophtalmologue rapide
+37;4;0;AGPM - Mutuelle pas ophtalmo direct
+37;21;0;Dentiste Cabinet Urgences Paris - Pas ophtalmo
+38;3;0;Défense Mobilité - Paris pas Toulouse
+38;25;0;Pôle Emploi Défense Mobilité - Paris pas Toulouse
+38;30;0;Centre Formation Cyber Défense - Paris pas bilan
+39;15;1;Crèche Les Petits Soldats - Activités enfants
+39;11;1;Académia Soutien Scolaire - Activités périscolaires
+39;0;0;Babychou Services - Pas activités structurées
+40;22;1;Constructions Maison Tradition - Construction maison retraite
+40;38;1;Notaire Conseil Patrimoine - Projet retraite
+40;34;0;La Maison des Travaux - Pas construction neuve
+41;16;1;GAN Prévoyance Fonctionnaires - Bordeaux OK
+41;4;0;AGPM - Lyon pas Bordeaux
+41;41;1;Harmonie Mutuelle Défense - Bordeaux OK
+42;35;1;Fibre Connect Pro - Lyon OK
+42;34;0;La Maison des Travaux - Marseille pas Lyon
+42;20;0;Électricien Pro Urgence - Lyon mais pas fibre
+43;40;1;CAF Conseil Droits Sociaux - Changement situation
+43;9;1;France Services - Démarches administratives
+43;39;1;Avocat Famille Durand - Divorce administratif
+44;42;1;Garage Éco Performance - Lille OK reprogrammation
+44;19;0;Garage Rapid'Auto - Lille mais pas reprogrammation
+44;14;0;Autocaz Location - Paris pas Lille
+45;32;1;Babylonia Langues - Cours allemand intensifs
+45;13;0;Auto École Militaire Plus - Pas langues
+45;30;0;Centre Formation Cyber Défense - Pas langues
+46;43;1;Koloc' Jeunes Actifs Lille - Colocation Lille
+46;23;1;Foncia Logement Défense - Location
+46;27;0;Les Toits de la Défense - Logement social pas coloc
+47;29;1;Pressing Speed Clean - Pressing express tenue
+47;36;0;Coiffeur Le Barber Militaire - Coiffure pas pressing
+47;2;0;Demeco - Déménagement pas pressing
+48;31;1;Kinésithérapeute Sport & Défense - Marseille OK
+48;21;0;Dentiste Cabinet Urgences Paris - Paris pas Marseille
+48;45;0;Ambulance Médic Transport - Paris pas Marseille
+49;28;1;Animacoeur Pension - Toulon OK garde chien
+49;0;0;Babychou Services - Paris pas animaux
+49;15;0;Crèche Les Petits Soldats - Bordeaux pas animaux

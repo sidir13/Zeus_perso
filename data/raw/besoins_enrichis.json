@@ -1,0 +1,920 @@
+[
+  {
+    "besoin_id": 0,
+    "categorie_majeure": "Logement et Installation",
+    "sous_categorie": "Location meublée",
+    "message_utilisateur": "Affectation surprise sur Montpellier dans 2 semaines, recherche studio meublé proche base militaire pour 6 mois minimum",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": "Montpellier",
+      "date_detectee": "2026-02-05",
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 14,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 1,
+    "categorie_majeure": "Véhicule",
+    "sous_categorie": "Achat véhicule",
+    "message_utilisateur": "Suite à mon arrivée à Clermont-Ferrand, je cherche une voiture économique pour trajets quotidiens vers la caserne",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 2,
+    "categorie_majeure": "Famille",
+    "sous_categorie": "Scolarité",
+    "message_utilisateur": "Installation à Angers prévue en janvier, besoin d'informations sur les collèges publics pour mes deux filles de 13 et 15 ans",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": "Angers",
+      "date_detectee": "2026-01-15",
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": -8,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 3,
+    "categorie_majeure": "Banque et financement",
+    "sous_categorie": "Crédit consommation",
+    "message_utilisateur": "Je veux acheter du mobilier pour mon nouvel appartement à Nancy, recherche un crédit avec taux préférentiel militaire",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": "Nancy",
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 4,
+    "categorie_majeure": "Besoins de dernière minute",
+    "sous_categorie": "Garde d'enfant",
+    "message_utilisateur": "Convocation inattendue demain toute la journée à Versailles, besoin d'une nounou pour mes jumeaux de 4 ans en urgence",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": "Versailles",
+      "date_detectee": "2026-01-23",
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": 0,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 5,
+    "categorie_majeure": "Administratif",
+    "sous_categorie": "Permis de conduire",
+    "message_utilisateur": "J'ai perdu mon permis à Grenoble et je dois le refaire rapidement pour mes déplacements professionnels quotidiens",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": "Grenoble",
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 7,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 6,
+    "categorie_majeure": "Santé",
+    "sous_categorie": "Médecin généraliste",
+    "message_utilisateur": "Nouvelle installation à Perpignan, recherche un médecin traitant disponible rapidement pour suivi régulier et renouvellement ordonnances",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 7,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 7,
+    "categorie_majeure": "Emploi",
+    "sous_categorie": "Formation conjoint",
+    "message_utilisateur": "Ma conjointe souhaite se former aux métiers du numérique suite à notre mutation à Strasbourg, recherche organismes de formation",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": "Strasbourg",
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": null,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 8,
+    "categorie_majeure": "Logement et Installation",
+    "sous_categorie": "Aménagement",
+    "message_utilisateur": "Emménagement à Orléans la semaine prochaine, besoin d'aide pour montage meubles et petits travaux d'installation",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": "Orléans",
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 15,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 9,
+    "categorie_majeure": "Besoins de dernière minute",
+    "sous_categorie": "Serrurier",
+    "message_utilisateur": "Porte claquée avec clés à l'intérieur à Dijon, je dois partir en déplacement ce soir, intervention urgente nécessaire",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": "Dijon",
+      "date_detectee": "2026-01-22",
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": 0,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 10,
+    "categorie_majeure": "Assurance",
+    "sous_categorie": "Responsabilité civile",
+    "message_utilisateur": "Suite à des dégâts causés par mes enfants chez le voisin à Caen, besoin conseil assurance pour couvrir ce type de situations",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": "Caen",
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 11,
+    "categorie_majeure": "Travaux",
+    "sous_categorie": "Chauffage",
+    "message_utilisateur": "Mon système de chauffage ne fonctionne plus à Rouen en plein hiver, besoin intervention rapide d'un chauffagiste qualifié",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": "Rouen",
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 90,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 12,
+    "categorie_majeure": "Formation",
+    "sous_categorie": "Certification professionnelle",
+    "message_utilisateur": "Dans 8 mois je quitte l'armée à Poitiers, je veux obtenir une certification en gestion de projet pour ma reconversion",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-09-19",
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 240,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 13,
+    "categorie_majeure": "Soutien psychologique",
+    "sous_categorie": "Thérapie de couple",
+    "message_utilisateur": "Tensions conjugales dues aux mutations répétées, besoin thérapeute spécialisé couples militaires sur Avignon",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": "Avignon",
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 14,
+    "categorie_majeure": "Véhicule",
+    "sous_categorie": "Assurance auto",
+    "message_utilisateur": "Je viens d'acheter un véhicule à Amiens, recherche assurance tous risques avec garantie déplacement professionnel",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": null,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 15,
+    "categorie_majeure": "Retraite",
+    "sous_categorie": "Calcul droits",
+    "message_utilisateur": "Je pars en retraite dans 2 ans à Limoges, besoin accompagnement pour calculer mes droits et optimiser ma pension",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 90,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 16,
+    "categorie_majeure": "Logement et Installation",
+    "sous_categorie": "Garde-meuble",
+    "message_utilisateur": "Départ en formation longue durée de 6 mois depuis Le Havre, besoin stocker mes affaires en sécurité à prix raisonnable",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 90,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 17,
+    "categorie_majeure": "Famille",
+    "sous_categorie": "Mode de garde partagé",
+    "message_utilisateur": "Recherche famille militaire pour garde partagée d'enfants sur Belfort, nos horaires décalés compliquent l'organisation",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 18,
+    "categorie_majeure": "Banque et financement",
+    "sous_categorie": "Découvert bancaire",
+    "message_utilisateur": "Situation financière tendue suite à frais de mutation à Valence, besoin augmenter mon autorisation de découvert temporairement",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": null,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 19,
+    "categorie_majeure": "Administratif",
+    "sous_categorie": "Déclaration impôts",
+    "message_utilisateur": "Première déclaration après mutation à Besançon, situation complexe avec revenus multiples, besoin aide d'un expert comptable",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 20,
+    "categorie_majeure": "Besoins de dernière minute",
+    "sous_categorie": "Vétérinaire",
+    "message_utilisateur": "Mon chien s'est blessé gravement à Ajaccio, besoin consultation vétérinaire d'urgence disponible ce soir",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-01-22",
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": 0,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 21,
+    "categorie_majeure": "Santé",
+    "sous_categorie": "Orthodontie",
+    "message_utilisateur": "Mon fils de 14 ans à Mulhouse a besoin d'un appareil dentaire, recherche orthodontiste acceptant nouveaux patients rapidement",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": "Mulhouse",
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 7,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 22,
+    "categorie_majeure": "Emploi",
+    "sous_categorie": "Reconversion militaire",
+    "message_utilisateur": "Après 20 ans de service, je souhaite devenir pompier professionnel à Tours, besoin infos sur passerelles et démarches",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": null,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 23,
+    "categorie_majeure": "Véhicule",
+    "sous_categorie": "Expertise accident",
+    "message_utilisateur": "Accident responsable hier à Chambéry, besoin expert automobile pour constater dégâts et gérer dossier assurance",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": null,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 24,
+    "categorie_majeure": "Assurance",
+    "sous_categorie": "Assurance emprunteur",
+    "message_utilisateur": "Rachat crédit immobilier en cours à La Rochelle, ma banque impose nouvelle assurance emprunteur trop chère, cherche alternative",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 90,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 25,
+    "categorie_majeure": "Logement et Installation",
+    "sous_categorie": "Bail meublé",
+    "message_utilisateur": "Besoin relecture contrat location meublée à Troyes avant signature, clauses mobilité semblent floues, conseil juridique souhaité",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": null,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 26,
+    "categorie_majeure": "Travaux",
+    "sous_categorie": "Peinture intérieure",
+    "message_utilisateur": "Logement de fonction à Angoulême nécessite rafraîchissement avant notre arrivée prévue dans 3 semaines",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-02-12",
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 21,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 27,
+    "categorie_majeure": "Formation",
+    "sous_categorie": "Habilitation électrique",
+    "message_utilisateur": "Pour mes nouvelles fonctions à Niort, je dois passer mes habilitations électriques B2V BR BC, recherche centre agréé",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": null,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 28,
+    "categorie_majeure": "Famille",
+    "sous_categorie": "Soutien scolaire",
+    "message_utilisateur": "Mon fils décroche scolairement depuis nos 3 mutations en 2 ans, besoin professeur particulier patient à Vannes pour math et français",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 90,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 29,
+    "categorie_majeure": "Épargne",
+    "sous_categorie": "Assurance-vie",
+    "message_utilisateur": "Je souhaite ouvrir une assurance-vie à Pau pour épargner en vue de la retraite, besoin conseils sur meilleurs contrats militaires",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 90,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 30,
+    "categorie_majeure": "Administratif",
+    "sous_categorie": "Carte Vitale",
+    "message_utilisateur": "Ma carte vitale est illisible suite à mutation à Saint-Étienne, besoin remplacement rapide avant mes RDV médicaux de la semaine",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": "Saint-Étienne",
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": null,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 31,
+    "categorie_majeure": "Soutien psychologique",
+    "sous_categorie": "Traumatisme SSPT",
+    "message_utilisateur": "Symptômes post-traumatiques suite à dernière opex, besoin psychologue formé EMDR sur région de Bayonne",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 32,
+    "categorie_majeure": "Besoins de dernière minute",
+    "sous_categorie": "Traiteur",
+    "message_utilisateur": "Réception imprévue pour délégation étrangère après-demain à Metz, besoin traiteur pour 30 personnes, buffet protocolaire",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": "Metz",
+      "date_detectee": "2026-01-23",
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": 0,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 33,
+    "categorie_majeure": "Logement et Installation",
+    "sous_categorie": "Diagnostic immobilier",
+    "message_utilisateur": "Vente de mon appartement à Dunkerque avant mutation, besoin diagnostics obligatoires (DPE, amiante, plomb) rapidement",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 7,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 34,
+    "categorie_majeure": "Véhicule",
+    "sous_categorie": "Révision technique",
+    "message_utilisateur": "Ma voiture a 15000 km à Béziers, besoin révision complète avant long trajet vacances prévu dans 10 jours",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-02-01",
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 10,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 35,
+    "categorie_majeure": "Banque et financement",
+    "sous_categorie": "Épargne salariale",
+    "message_utilisateur": "Question sur déblocage anticipé épargne salariale à Lorient pour financer travaux résidence principale suite mutation",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 36,
+    "categorie_majeure": "Santé",
+    "sous_categorie": "Allergologue",
+    "message_utilisateur": "Allergies respiratoires importantes depuis arrivée à Épinal, besoin bilan allergologique complet et traitement adapté",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 37,
+    "categorie_majeure": "Emploi",
+    "sous_categorie": "CV et lettre motivation",
+    "message_utilisateur": "Préparation candidatures emploi civil à Nîmes pour fin de contrat dans 4 mois, besoin aide professionnelle rédaction dossiers",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-05-22",
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 120,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 38,
+    "categorie_majeure": "Famille",
+    "sous_categorie": "Activités enfants",
+    "message_utilisateur": "Recherche centre aéré et activités mercredi pour mes 3 enfants suite arrivée à Charleville-Mézières il y a 2 semaines",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 39,
+    "categorie_majeure": "Retraite",
+    "sous_categorie": "Maison de retraite",
+    "message_utilisateur": "Ma mère de 82 ans nécessite hébergement médicalisé proche de mon domicile à Colmar, recherche EHPAD avec places disponibles",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 40,
+    "categorie_majeure": "Assurance",
+    "sous_categorie": "Garantie accident vie",
+    "message_utilisateur": "Départ en mission à risque depuis Tarbes dans 6 semaines, besoin renforcer mes garanties décès et invalidité pour ma famille",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-03-05",
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 42,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 41,
+    "categorie_majeure": "Travaux",
+    "sous_categorie": "Toiture",
+    "message_utilisateur": "Infiltrations d'eau constatées dans maison à Bourges après fortes pluies, besoin couvreur pour diagnostic et devis réparations",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": "Bourges",
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "PREFERRED",
+      "disponibilite": "SEMAINE"
+    }
+  },
+  {
+    "besoin_id": 42,
+    "categorie_majeure": "Administratif",
+    "sous_categorie": "Naturalisation conjoint",
+    "message_utilisateur": "Mon épouse étrangère souhaite demander la nationalité française à Pau après 5 ans de mariage, besoin aide constitution dossier",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": null,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 43,
+    "categorie_majeure": "Véhicule",
+    "sous_categorie": "Dépannage remorquage",
+    "message_utilisateur": "Panne mécanique sur autoroute près d'Auxerre, voiture immobilisée, besoin dépanneuse pour ramener véhicule au garage",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": 0,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 44,
+    "categorie_majeure": "Formation",
+    "sous_categorie": "Sécurité incendie",
+    "message_utilisateur": "Besoin de recycler mon SSIAP 1 à Cherbourg avant expiration dans 2 mois pour maintenir mes qualifications",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-05-15",
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": 112,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 45,
+    "categorie_majeure": "Logement et Installation",
+    "sous_categorie": "Emménagement assisté",
+    "message_utilisateur": "Personne seule avec mobilité réduite suite accident, mutation sur Laval, besoin aide complète pour emménagement et installation",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": null,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 46,
+    "categorie_majeure": "Besoins de dernière minute",
+    "sous_categorie": "Informatique",
+    "message_utilisateur": "Mon ordinateur portable a planté à Évry avec tous mes dossiers de travail, intervention informatique urgente avant présentation demain",
+    "niveau_urgence_original": "Immédiat",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": "2026-01-23",
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": 0,
+      "urgence_deduite": "IMMEDIATE"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 47,
+    "categorie_majeure": "Santé",
+    "sous_categorie": "Podologue",
+    "message_utilisateur": "Douleurs plantaires importantes à Blois dues aux marches quotidiennes, besoin semelles orthopédiques sur mesure rapidement",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "IMMEDIATE",
+      "jours_estimation": 0,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "24/7"
+    }
+  },
+  {
+    "besoin_id": 48,
+    "categorie_majeure": "Famille",
+    "sous_categorie": "Périscolaire",
+    "message_utilisateur": "Inscription cantine et garderie pour septembre à Quimper, démarches compliquées, besoin aide pour constitution dossier complet",
+    "niveau_urgence_original": "Planifié",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "PLANNED",
+      "jours_estimation": null,
+      "urgence_deduite": "PLANNED"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "ALL"
+    }
+  },
+  {
+    "besoin_id": 49,
+    "categorie_majeure": "Véhicule",
+    "sous_categorie": "Pneumatiques",
+    "message_utilisateur": "Mes pneus sont usés à Lens, contrôle technique refuse ma voiture, besoin changement 4 pneus rapidement à prix raisonnable",
+    "niveau_urgence_original": "Court terme",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "SHORT_TERM",
+      "jours_estimation": 7,
+      "urgence_deduite": "SHORT_TERM"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "RAPIDE"
+    }
+  },
+  {
+    "besoin_id": 50,
+    "categorie_majeure": "Banque et financement",
+    "sous_categorie": "Rachat assurance prêt",
+    "message_utilisateur": "Mon assurance emprunteur actuelle à Carcassonne est trop coûteuse, recherche délégation assurance pour économiser sur mensualités",
+    "niveau_urgence_original": "Standard",
+    "entites_ner": {
+      "ville_detectee": null,
+      "date_detectee": null,
+      "horizon_temporel": "STANDARD",
+      "jours_estimation": null,
+      "urgence_deduite": "STANDARD"
+    },
+    "contraintes_matching": {
+      "ville": "NATIONAL",
+      "disponibilite": "SEMAINE"
+    }
+  }
+]
