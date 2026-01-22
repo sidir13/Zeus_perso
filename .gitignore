@@ -2,3 +2,5 @@ data/processed
 *.md
 *.bat
 zeus/
+
+!README.md
